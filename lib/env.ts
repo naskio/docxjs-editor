@@ -27,6 +27,10 @@ const envSchema = z.object({
         arr.length > 0 &&
         arr.every((value) => renderingLibraryOptions.includes(value))
     ),
+  googleAnalyticsId: z
+    .string()
+    .default(``)
+    .refine((value) => !value || value.startsWith(`G-`)),
   output: z.enum([`export`, ``]).default(``),
 });
 
@@ -35,5 +39,6 @@ export const env = envSchema.parse({
   repositoryUrl: process.env.NEXT_PUBLIC_REPOSITORY_URL,
   twitterUrl: process.env.NEXT_PUBLIC_TWITTER_URL,
   renderingLibraries: process.env.NEXT_PUBLIC_RENDERING_LIBRARIES,
+  googleAnalyticsId: process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID,
   output: process.env.OUTPUT,
 });

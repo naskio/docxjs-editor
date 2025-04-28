@@ -2,8 +2,10 @@ import React from 'react';
 import type { Metadata } from 'next';
 // fonts
 import { Geist, Geist_Mono } from 'next/font/google';
+import { GoogleAnalytics } from '@next/third-parties/google';
 import { ThemeProvider } from '@/components/theme-provider';
 import { TooltipProvider } from '@/components/ui/tooltip';
+import { env } from '@/lib/env';
 // These styles apply to every route in the application
 import './globals.css';
 
@@ -37,6 +39,9 @@ export default function RootLayout({
           <TooltipProvider delayDuration={300}>{children}</TooltipProvider>
         </ThemeProvider>
       </body>
+      {env.googleAnalyticsId && (
+        <GoogleAnalytics gaId={env.googleAnalyticsId} />
+      )}
     </html>
   );
 }
