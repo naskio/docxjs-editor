@@ -4,6 +4,9 @@
   "version": "0.1.0",
   "private": false,
   "license": "MIT",
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "packageManager": "pnpm@10.2.1",
   "scripts": {
     "dev": "next dev --turbopack",
@@ -40,9 +43,9 @@
     "docx-preview": "^0.3.4",
     "lodash.debounce": "^4.0.8",
     "lucide-react": "^0.475.0",
-    "mammoth": "^1.9.0",
+    "mammoth": "^1.11.0",
     "mime-types": "^2.1.35",
-    "next": "^15.1.6",
+    "next": "15.1.9",
     "next-themes": "^0.4.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
