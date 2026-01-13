@@ -73,7 +73,7 @@ jobs:
       - run: pnpm build
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         if: github.ref == 'refs/heads/main' && steps.has-pages.outputs.HAS_PAGES == 'true'
         with:
           path: out
