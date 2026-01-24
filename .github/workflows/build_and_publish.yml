@@ -29,7 +29,7 @@ jobs:
     outputs:
       HAS_PAGES: ${{ steps.has-pages.outputs.HAS_PAGES }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Rename all route.ts files within app/ folder to route.skip.ts if OUTPUT is export
         if: env.OUTPUT == 'export'
