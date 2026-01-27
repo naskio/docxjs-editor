@@ -72,7 +72,7 @@
     "@types/mime-types": "^2.1.4",
     "@types/node": "22.13.1",
     "@types/react": "19.0.8",
-    "@types/react-dom": "^19.0.3",
+    "@types/react-dom": "^19.1.11",
     "eslint": "^9",
     "eslint-config-next": "15.1.6",
     "eslint-config-prettier": "^10.0.1",
