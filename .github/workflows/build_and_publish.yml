@@ -52,7 +52,7 @@ jobs:
           cache: 'pnpm'
 
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
         if: github.ref == 'refs/heads/main' && steps.has-pages.outputs.HAS_PAGES == 'true'
 
       - name: Restore cache
