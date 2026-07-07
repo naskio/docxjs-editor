@@ -20,8 +20,8 @@ importers:
         specifier: 4.7.0
         version: 4.7.0(patch_hash=6d1366b8f4311e623a61d44f02998e52ec143880575069ab68033eb77c18500b)(monaco-editor@0.52.2)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       '@next/third-parties':
-        specifier: ^15.5.20
-        version: 15.5.20(next@15.2.9(@babel/core@7.26.8)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(react@19.2.7)
+        specifier: ^16.2.10
+        version: 16.2.10(next@15.2.9(@babel/core@7.26.8)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(react@19.2.7)
       '@radix-ui/react-context-menu':
         specifier: ^2.3.3
         version: 2.3.3(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
@@ -905,10 +905,10 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@next/third-parties@15.5.20':
-    resolution: {integrity: sha512-oy3ZObanGBGDHSbfxsf7fIqPe9fzt+M890pA+hZKr46w1jDl+YFlU2evPKb+j5+2TyJsRfHzeCz0lUiyPvNyGg==}
+  '@next/third-parties@16.2.10':
+    resolution: {integrity: sha512-H3yxCMLziM1JKXnjQv83WBH2cp1fB1vMxpC1/bBTpvvaesBEuRuprpzq5RI32atis0VhUZflgdpJdGNZIGpQaQ==}
     peerDependencies:
-      next: ^13.0.0 || ^14.0.0 || ^15.0.0
+      next: ^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0-beta.0
       react: ^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0
 
   '@nodelib/fs.scandir@2.1.5':
@@ -5128,7 +5128,7 @@ snapshots:
   '@next/swc-win32-x64-msvc@15.2.5':
     optional: true
 
-  '@next/third-parties@15.5.20(next@15.2.9(@babel/core@7.26.8)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(react@19.2.7)':
+  '@next/third-parties@16.2.10(next@15.2.9(@babel/core@7.26.8)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(react@19.2.7)':
     dependencies:
       next: 15.2.9(@babel/core@7.26.8)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       react: 19.2.7
