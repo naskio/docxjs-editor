@@ -21,7 +21,7 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@hookform/resolvers": "^4.1.3",
+    "@hookform/resolvers": "^5.4.0",
     "@monaco-editor/react": "4.7.0",
     "@next/third-parties": "^15.5.20",
     "@radix-ui/react-context-menu": "^2.3.3",
