@@ -1,5 +1,8 @@
 import React from 'react';
-import { SaveIcon, RefreshCwIcon } from 'lucide-react';
+import {
+  LuSave as SaveIcon,
+  LuRefreshCw as RefreshCwIcon,
+} from 'react-icons/lu';
 import { Button } from '@/components/ui/button';
 import {
   Select,

@@ -13,6 +13,7 @@ const config = {
     '^jest$',
     '^next(.*)$',
     '^lucide-react$',
+    '^react-icons/(.*)$',
     '<THIRD_PARTY_MODULES>',
     '^@/app/(.*)$',
     '^@/components/(.*)$',

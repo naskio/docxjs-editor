@@ -1,5 +1,5 @@
 import React from 'react';
-import { XIcon } from 'lucide-react';
+import { LuX as XIcon } from 'react-icons/lu';
 import { buttonVariants } from '@/components/ui/button';
 import { TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { useDocumentsStore } from '@/store/documents-store-provider';

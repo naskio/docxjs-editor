@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 import { useTheme } from 'next-themes';
-import { Moon, Sun } from 'lucide-react';
+import { LuMoon as Moon, LuSun as Sun } from 'react-icons/lu';
 import { Button } from '@/components/ui/button';
 import {
   DropdownMenu,

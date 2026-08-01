@@ -1,7 +1,11 @@
 'use client';
 
 import * as React from 'react';
-import { Check, ChevronDown, ChevronUp } from 'lucide-react';
+import {
+  LuCheck as Check,
+  LuChevronDown as ChevronDown,
+  LuChevronUp as ChevronUp,
+} from 'react-icons/lu';
 import * as SelectPrimitive from '@radix-ui/react-select';
 import { cn } from '@/lib/utils';
 

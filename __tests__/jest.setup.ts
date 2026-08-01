@@ -5,12 +5,23 @@ import config from '../next.config';
 
 // extends jest expect with jest-dom matchers
 
-// Mock lucide-react icons to avoid jest compilation error
+// Mock icon packages to avoid jest compilation errors.
 jest.mock('lucide-react', () => {
   return new Proxy(
     {},
     {
-      get: (target, prop) => {
+      get: (_target, prop) => {
+        return (props) =>
+          React.createElement('svg', { ...props, 'data-icon': prop });
+      },
+    }
+  );
+});
+jest.mock('react-icons/lu', () => {
+  return new Proxy(
+    {},
+    {
+      get: (_target, prop) => {
         return (props) =>
           React.createElement('svg', { ...props, 'data-icon': prop });
       },

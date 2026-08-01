@@ -1,5 +1,9 @@
 import Link from 'next/link';
-import { GithubIcon, PlayIcon, StarIcon } from 'lucide-react';
+import {
+  LuGithub as GithubIcon,
+  LuPlay as PlayIcon,
+  LuStar as StarIcon,
+} from 'react-icons/lu';
 import { Logo } from '@/components/logo';
 import { buttonVariants } from '@/components/ui/button';
 import { env } from '@/lib/env';

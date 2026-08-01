@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useCallback, useEffect, useState } from 'react';
-import { AlertCircle } from 'lucide-react';
+import { LuCircleAlert as AlertCircle } from 'react-icons/lu';
 import { PreviewFrameMemoized } from '@/components/playground/preview-frame';
 import { PreviewHeaderMemoized } from '@/components/playground/preview-header';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';

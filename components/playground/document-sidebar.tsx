@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useCallback, useState } from 'react';
-import { FilePlusIcon } from 'lucide-react';
+import { LuFilePlus as FilePlusIcon } from 'react-icons/lu';
 import { DocumentFormDialogContentMemoized } from '@/components/playground/document-form-dialog-content';
 import { DocumentMenuItemMemoized } from '@/components/playground/document-menu-item';
 import { Button } from '@/components/ui/button';

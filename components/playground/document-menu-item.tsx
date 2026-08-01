@@ -1,5 +1,5 @@
 import React, { useCallback, useRef, useState } from 'react';
-import { FileIcon } from 'lucide-react';
+import { LuFile as FileIcon } from 'react-icons/lu';
 import { DocumentFormDialogContentMemoized } from '@/components/playground/document-form-dialog-content';
 import {
   ContextMenu,

@@ -1,5 +1,8 @@
 import Link from 'next/link';
-import { GithubIcon, TwitterIcon } from 'lucide-react';
+import {
+  LuGithub as GithubIcon,
+  LuTwitter as TwitterIcon,
+} from 'react-icons/lu';
 import { Logo } from '@/components/logo';
 import { ButtonModeToggle } from '@/components/mode-toggle';
 import { buttonVariants } from '@/components/ui/button';
@@ -19,7 +22,7 @@ export function Header() {
       </p>
       <div className='flex justify-center'>
         <Link href='/'>
-          <Logo className='w-[8rem] sm:w-[12rem]' />
+          <Logo className='w-32 sm:w-48' />
         </Link>
       </div>
       <div className='hidden flex-row justify-end gap-x-2 sm:flex'>
